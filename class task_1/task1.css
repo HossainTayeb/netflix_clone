@@ -1,0 +1,88 @@
+/*reset*/
+*{
+    box-sizing: border-box;
+    /*reset adding and margin on all elements*/
+    padding: 0;
+    margin: 0;
+}
+/*typography*/
+html{
+    font-size: 18px;
+}
+h3{
+    font-size: 1.3rem;
+   font-weight: 550;
+   letter-spacing: 1px;  
+   padding-bottom: 32px; 
+}
+p{
+    color: rgb(99, 110, 133);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    line-height: 20px;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+    color: rgb(59, 135, 235);
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(247, 247, 249);
+}
+/* container */
+.container{
+    width: 432px;
+    height: auto;
+    margin-top: 104px;
+    margin-left: 504px;
+    padding: 40px 48px 40px 40px;
+    background-color: rgb(255, 255, 255);
+}
+/* form */
+.form label{
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: rgba(44, 61, 79, .7);
+    display: block;
+    text-transform: capitalize;
+    letter-spacing: 1.2px;
+    text-align: start;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.form input{
+    height: 40px;
+    border: 1px solid rgba(44, 61, 79, .3);
+    border-radius: 4px;
+    padding: 1rem;
+    width: 350px;
+    color: rgb(255, 255, 255);
+}
+/* submit section */
+.submit{
+    display: block;
+    margin-top: 32px;
+}
+.submit a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 40px;
+    width: 350px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    background-color: rgb(146, 149, 153);
+    color: rgb(255, 255, 255);
+    border:none;
+    border-radius: 4px;
+}
+
+.submit p{
+    text-align: center;
+    color: rgba(44, 61, 79, .7);
+}
